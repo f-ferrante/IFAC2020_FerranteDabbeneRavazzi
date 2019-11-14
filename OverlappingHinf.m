@@ -1,3 +1,6 @@
+%This code solves the Overlapping Control Problem in Section 5.2
+%The code requires YALMIP parser for Linear Matrix Inequality, freely avaialbe at https://yalmip.github.io. 
+%Any SDP solver can be used. Here we used SDPT3 freely avaialbe at https://github.com/SQLP/SDPT3
 %% Problem Definition
 clear all;
 A=[1 4 0; 1 2 2; 0 -2 3];
